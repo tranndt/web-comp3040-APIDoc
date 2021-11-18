@@ -4,4 +4,6 @@
 
 # Resources
 
-# Sample
+# Sample Requests
+
+# Response
