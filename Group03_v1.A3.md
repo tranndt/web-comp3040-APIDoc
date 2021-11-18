@@ -1,9 +1,9 @@
-# Description
+# Group 3 Comp 3040 API
 
-# Parameters
+## Parameters
 
-# Resources
+## Resources
 
-# Sample Requests
+## Sample Requests
 
-# Response
+## Response
