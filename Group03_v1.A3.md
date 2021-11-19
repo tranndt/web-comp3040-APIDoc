@@ -64,3 +64,8 @@ Response
 ## Usage limits and attribution
 The Manitoba Population Group 3 API can be used free of charge. 
 
+## Credits
+- https://www.worldatlas.com/articles/the-10-biggest-cities-in-manitoba.html
+- https://sunrise-sunset.org/api
+- https://www.macrotrends.net/cities/20407/winnipeg/population 
+- https://datacommons.org/ranking/Count_Person/City/wikidataId/Q1948?h=wikidataId%2FQ6465074
