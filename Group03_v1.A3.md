@@ -11,5 +11,27 @@ Our API works with a simple **GET** request to https://api.mbpopulation.org/json
 ## Resources
 
 ## Sample Requests
+### Response without specific month:
+Sample request:
+```
+https://api.mbpopulation.org/json?location=winnipeg&year=2016
+```
+
+Response
+
+```
+{
+      "results":
+      {
+       	“location”:"Winnipeg",
+       	“year”: 2016,
+		“month”: 1,
+       	“population”:705244,
+		“area”: 464.33,
+		“population_density” : 1518.8,
+      },
+       "status":"OK"
+}
+```
 
 ## Response
