@@ -5,6 +5,8 @@ We are offering a basic API which will provide polulations of towns and cities i
 Our API works with a simple **GET** request to https://api.mbpopulation.org/json.
 
 ## Parameters
+* Area (String) - Name of town/city. Required
+* TimePeriod (Integer) - Year in XXXX format. Required
 
 ## Resources
 
