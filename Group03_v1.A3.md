@@ -5,13 +5,17 @@ We are offering a basic API which will provide polulations of towns and cities i
 Our API works with a simple **GET** request to https://api.mbpopulation.org/json.
 
 ## Parameters
-* Area (String) - Name of town/city. Required
-* TimePeriod (Integer) - Year in XXXX format. Required
+* Location (string) - Name of town/city. Required.
+* Year (integer) - Year in YYYY format. Required.
+* Month (integer) - Month in MM format. If not present, month will default to ```1``` (January). Optional.
 
 ## Resources
+* Population (integer) - Population of town/city
+* Area (integer) - Total area of the location in km^2
+* Population Density (integer) - population / area
 
 ## Sample Requests and response
-### Response without specific month
+### Response without specific month:
 Sample request:
 ```
 https://api.mbpopulation.org/json?location=winnipeg&year=2016
@@ -34,8 +38,8 @@ Response
 }
 ```
 
-### Response with specific month
-Sample request (month = 12)
+### Response with specific month (month = 12):
+Sample request:
 ``` 
 https://api.mbpopulation.org/json?location=winnipeg&year=1999&month=12 
 ```
