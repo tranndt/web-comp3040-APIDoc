@@ -60,3 +60,7 @@ Response
       "status":"OK"
 }
 ```
+
+## Usage limits and attribution
+The Manitoba Population Group 3 API can be used free of charge. 
+
