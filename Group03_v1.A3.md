@@ -4,18 +4,18 @@ We are offering a basic API which will provide polulations of towns and cities i
 ## API Documentation
 Our API works with a simple **GET** request to https://api.mbpopulation.org/json.
 
-## Parameters
+### Parameters
 * **Location** (string) - Name of town/city. Required.
 * **Year** (integer) - Year in ```YYYY``` format. Required.
 * **Month** (integer) - Month in ```MM``` format. If not present, month will default to ```"01"``` (January). Optional.
 
-## Resources
+### Resources
 * **Population** (integer) - Population of town/city
 * **Area** (integer) - Total area of the location in km^2
 * **Population Density** (integer) - population / area
 
-## Sample Requests and response
-### Response without specific month:
+### Sample Requests and response
+#### Response without specific month:
 Sample request:
 ```
 https://api.mbpopulation.org/json?location=winnipeg&year=2016
@@ -38,7 +38,7 @@ Response
 }
 ```
 
-### Response with specific month (month = "12"):
+#### Response with specific month (month = "12"):
 Sample request:
 ``` 
 https://api.mbpopulation.org/json?location=winnipeg&year=1999&month=12 
@@ -61,10 +61,10 @@ Response
 }
 ```
 
-## Usage limits and attribution
+### Usage limits and attribution
 The Manitoba Population Group 3 API can be used free of charge. 
 
-## Credits
+### Credits
 - https://www.worldatlas.com/articles/the-10-biggest-cities-in-manitoba.html
 - https://sunrise-sunset.org/api
 - https://www.macrotrends.net/cities/20407/winnipeg/population 
