@@ -11,7 +11,7 @@ Our API works with a simple **GET** request to https://api.mbpopulation.org/json
 ## Resources
 
 ## Sample Requests and response
-### Response without specific month:
+### Response without specific month
 Sample request:
 ```
 https://api.mbpopulation.org/json?location=winnipeg&year=2016
@@ -34,8 +34,8 @@ Response
 }
 ```
 
-### Response with specific month (month = 12):
-Sample request:
+### Response with specific month
+Sample request (month = 12)
 ``` 
 https://api.mbpopulation.org/json?location=winnipeg&year=1999&month=12 
 ```
