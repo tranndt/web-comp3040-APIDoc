@@ -1,4 +1,4 @@
-# Group 3 Comp 3040 API
+# Manitoba Population Group 3 API
 We are offering a basic API which will provide polulations of towns and cities in Manitoba for a given **area** and **time period**.
 
 ## API Documentation
