@@ -10,7 +10,7 @@ Our API works with a simple **GET** request to https://api.mbpopulation.org/json
 
 ## Resources
 
-## Sample Requests
+## Sample Requests and response
 ### Response without specific month:
 Sample request:
 ```
@@ -34,4 +34,3 @@ Response
 }
 ```
 
-## Response
