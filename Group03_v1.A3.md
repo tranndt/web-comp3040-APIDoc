@@ -23,12 +23,12 @@ Response
 {
       "results":
       {
-       	“location”:"Winnipeg",
-       	“year”: 2016,
-		“month”: 1,
-       	“population”:705244,
-		“area”: 464.33,
-		“population_density” : 1518.8,
+	“location”:"Winnipeg",
+	“year”: 2016,
+	“month”: 1,
+	“population”:705244,
+	“area”: 464.33,
+	“population_density” : 1518.8,
       },
        "status":"OK"
 }
@@ -45,11 +45,11 @@ Response
       "results":
       {
        	“location”:"Winnipeg",
-       	“year”: 1999,
-		“month”: 12,
-       	“population”:673000,
-		“area”: 464.33,
-		“population_density” : 1449.4,
+	“year”: 1999,
+	“month”: 12,
+	“population”:673000,
+	“area”: 464.33,
+	“population_density” : 1449.4,
       },
       "status":"OK"
 }
