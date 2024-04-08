@@ -1,4 +1,4 @@
-As part of COMP 3040 course at the University of Manitoba
+A demo of an API documentation, as part of COMP 3040 course at the University of Manitoba
 
 # Manitoba Population API
 We are offering a basic API which will provide polulations of towns and cities in Manitoba for a given **area** and **time period**.
